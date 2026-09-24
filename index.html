@@ -316,4 +316,4 @@ const roundControls=document.querySelector('#controls');
 const updateControlsWithRoundLayout=updateControls;
 updateControls=function(...args){const result=updateControlsWithRoundLayout(...args);document.body.classList.toggle('round-active',running);if(running){if(companionHealthbar.parentElement!==roundControls)roundControls.append(companionHealthbar)}else if(companionHealthbar.parentElement===roundControls){game.append(companionHealthbar);positionCompanionHealthbar()}return result};
 updateControls();
-</script></body></html>
+</script><script src="online-scores.js"></script></body></html>
